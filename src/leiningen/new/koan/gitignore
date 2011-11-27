@@ -6,3 +6,16 @@
 /.lein-failures
 /checkouts
 /.lein-deps-sum
+.DS_Store
+*.#*
+*#*
+*.classpath
+*.project
+*.settings
+*.pyc
+*.dot
+.cake/
+.lein-failures
+.lein-deps-sum
+docs/**
+autodoc/**

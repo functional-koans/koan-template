@@ -15,3 +15,10 @@ A Leiningen template for Koan generation.
 Copyright (C) 2011 FIXME
 
 Distributed under the Eclipse Public License, the same as Clojure.
+
+## TODO
+
+* Better usage instructions
+* Note on why we need to adjust permissions under "script"
+* Links to koan-engine
+* Adjust text on templated README
