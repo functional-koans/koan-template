@@ -12,7 +12,7 @@ Run the following commands to install `koan-template` and create a new, custom k
     cd <your-project-name>
     chmod +x script/*
 
-And you're set! Run `lein deps && lein koan run` to see the included example koan. The README of the resulting project will contain everything your users need to know to get started.
+Run `lein deps && lein koan run` to see the included example koan. The README of the resulting project will contain everything your users need to know to run the koans.
 
 ## Customizing your new project
 
@@ -23,6 +23,7 @@ All new projects will require the following steps:
 - Add APIs and other namespaces to the Dojo, as discussed on the [koan-engine wiki](https://github.com/functional-koans/clojure-koan-engine).
 - Write some more koans using the instructions at the [koan-engine github page](https://github.com/functional-koans/clojure-koan-engine).
 - Add proper solutions to `resources/koans.clj`
+- Customize `README.md`
 
 And that's it! The template handles all structure, leaving you to craft puzzles and delight users. Once you've got `lein koan test` passing again, make your code available to the world and await your students.
 
