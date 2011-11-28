@@ -20,8 +20,8 @@ All new projects will require the following steps:
 
 - add custom dependencies to `project.clj`. (Clojure defaults to 1.3.0, but feel free to roll back to 1.2.1 if your library needs it.)
 - Delete the example koan at `src/koans/example_koan.clj` (or add to it!)
-- Add APIs and other namespaces to the Dojo, as discussed on the [koan-engine wiki](https://github.com/functional-koans/clojure-koan-engine).
-- Write some more koans using the instructions at the [koan-engine github page](https://github.com/functional-koans/clojure-koan-engine).
+- Add APIs and other namespaces to the Dojo, as discussed on the [dojo wiki page](https://github.com/functional-koans/clojure-koan-engine/wiki/The-Dojo).
+- Write some more koans using the instructions at the [koan-engine github page](https://github.com/functional-koans/clojure-koan-engine/wiki/How-to-write-koans).
 - Add proper solutions to `resources/koans.clj`
 - Customize `README.md`
 
