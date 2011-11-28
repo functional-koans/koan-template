@@ -16,6 +16,7 @@
              ["src/koans/{{koan-name}}.clj" (render "example_koan.clj" data)]
              ["resources/dojo.clj" (render "resources/dojo.clj" data)]
              ["resources/koans.clj" (render "resources/koans.clj" data)]
+             ["script/bundle" (render "script/bundle" data)]
              ["script/run" (render "script/run" data)]
              ["script/run.bat" (render "script/run.bat" data)]
              ["script/run.clj" (render "script/run.clj" data)]
