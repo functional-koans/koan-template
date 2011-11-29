@@ -7,7 +7,7 @@ A Leiningen template for standalone koan projects based on the [Clojure Koan Eng
 Run the following commands to install `koan-template` and create a new, custom koan project:
 
     lein plugin install lein-newnew 0.1.2
-    lein plugin install koan-template 0.1.0
+    lein plugin install koan-template 0.1.1
     lein new koan <your-project-name>
     cd <your-project-name>
     chmod +x script/*
