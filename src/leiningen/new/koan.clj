@@ -4,11 +4,12 @@
 (def render (renderer "koan"))
 
 (defn koan
-  "A skeleton `koan project` template."
+  "Koan-generating template, in the style of clojure-koans."
   [name]
   (let [data {:name name
               :sanitized (sanitize name)
               :koan-name "example_koan"}]
+    (println "Generating a koan template called" name ". Namaste!")
     (->files data
              ["project.clj" (render "project.clj" data)]
              ["README.md" (render "README.md" data)]
