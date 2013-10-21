@@ -2,11 +2,7 @@
 
 **CUSTOMIZE ME with some project specific details!**
 
-Koans are a fun and easy way to learn a clojure project - no experience assumed or required.  Just follow the instructions below to start making tests 
-
-### Getting Started
-
-run `lein deps` in the project directory. This will download all dependencies you need to run the koans.
+Koans are a fun and easy way to learn a clojure project - no experience assumed or required.  Just follow the instructions below to start making tests
 
 ### Running the Koans
 

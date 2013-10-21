@@ -4,15 +4,18 @@ A Leiningen template for standalone koan projects based on the [Clojure Koan Eng
 
 ## Usage
 
-Run the following commands to install `koan-template` and create a new, custom koan project:
+Add the needed plugins to your `~/.lein/profile.clj` file
 
-    lein plugin install lein-newnew 0.1.2
-    lein plugin install koan-template 0.1.1
+    {:user {:plugins [[lein-newnew "0.1.2"]
+                      [koan-template "0.1.2"]]}}
+
+Now you can create a new project using the leiningen template:
+
     lein new koan <your-project-name>
     cd <your-project-name>
     chmod +x script/*
 
-Run `lein deps && lein koan run` to see the included example koan. The README of the resulting project will contain everything your users need to know to run the koans.
+Run `lein koan run` to see the included example koan. The README of the resulting project will contain everything your users need to know to run the koans.
 
 ## Customizing your new project
 
