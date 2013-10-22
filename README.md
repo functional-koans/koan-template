@@ -6,8 +6,7 @@ A Leiningen template for standalone koan projects based on the [Clojure Koan Eng
 
 Add the needed plugins to your `~/.lein/profile.clj` file
 
-    {:user {:plugins [[lein-newnew "0.1.2"]
-                      [koan-template "0.1.2"]]}}
+    {:user {:plugins [[koan-template "0.1.2"]]}}
 
 Now you can create a new project using the leiningen template:
 
