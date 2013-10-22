@@ -1,3 +1,3 @@
-(defproject koan-template "0.1.1"
+(defproject koan-template "0.1.2"
   :description "Koan template generator for Koan projects!"
-  :dependencies [[clojure "1.3.0"]])
+  :dependencies [[org.clojure/clojure "1.5.1"]])
