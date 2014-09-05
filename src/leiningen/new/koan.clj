@@ -9,7 +9,9 @@
   (let [data {:name name
               :sanitized (sanitize name)
               :koan-name "example_koan"}]
-    (println "Generating a koan template called" name ". Namaste!")
+    (println (str "Generating a koan template called "
+                  name
+                  ". Namaste!"))
     (->files data
              ["project.clj" (render "project.clj" data)]
              ["README.md" (render "README.md" data)]
